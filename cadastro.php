@@ -15,11 +15,11 @@
   <div class="form">
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
-    <form class="login-form" onsubmit="return verificaSenhas()">
-      <input type="text" placeholder="NOME"/>
+    <form class="login-form" onsubmit="return verificaSenhas()" action="cadastro.php" method="POST">
+      <input type="text" placeholder="NOME" name="nome" id="nome"/>
       <input type="password" id="senha" name="senha" placeholder="SENHA" required>
-  <input type="password" id="confirmar_senha" placeholder="CONFIRMAR SENHA" name="confirmar_senha" required>
-      <input type="text" placeholder="EMAIL"/>
+      <input type="password" id="confirmar_senha" placeholder="CONFIRMAR SENHA" name="confirmar_senha" required>
+      <input type="text" placeholder="EMAIL" name="email" id="email"/>
       <button>Criar Conta</button>
       <p class="message">Já é registrado <a href="login.php">entre aqui</a></p>
     </form>
