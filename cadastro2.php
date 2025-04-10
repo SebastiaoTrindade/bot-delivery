@@ -31,7 +31,7 @@
         $query = mysqli_query($conn, $sql);
         
         if(!$query){
-            echo "Erro ao casdastrar!";
+            echo "<meta http-equiv='refresh' content='0;url=erro_cadastro.php'>";
         }else{
             echo "<meta http-equiv='refresh' content='0;url=sucesso.php'>";
         }

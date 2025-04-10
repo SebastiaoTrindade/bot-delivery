@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="style.css">
 
 <div class="login-page">
+  <div align="center"><strong>Cadastro relizado com sucesso!</strong></div><br>
+  <div align="center"><strong>Faça o login para continuar!</strong><br><strong></div><br>
   <div class="form">    
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
-
     <form class="login-form" action='index.php'> 
       <input type="text" placeholder="Seu email"/>
       <input type="password" placeholder="senha"/>
