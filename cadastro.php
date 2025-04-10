@@ -15,7 +15,7 @@
   <div class="form">
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
-    <form class="login-form" onsubmit="return verificaSenhas()" action="cadastro.php" method="POST">
+    <form class="login-form" onsubmit="return verificaSenhas()" action="cadastro2.php" method="POST">
       <input type="text" placeholder="NOME" name="nome" id="nome"/>
       <input type="password" id="senha" name="senha" placeholder="SENHA" required>
       <input type="password" id="confirmar_senha" placeholder="CONFIRMAR SENHA" name="confirmar_senha" required>
