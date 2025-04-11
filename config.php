@@ -1,5 +1,23 @@
 <?php
 
+session_start();
+error_reporting(0);
+ini_set('display_errors', 0);
+
+if($_SESSION['email'] == true){
+
+}else{
+    echo "<meta http-equiv='refresh' content='0;url=login.php'>";
+
+?>
+
+<script type="text/javascript">
+  window.location = "login.php";
+</script>
+
+<?php
+}
+
 $adm = 0;
 
 ?>
