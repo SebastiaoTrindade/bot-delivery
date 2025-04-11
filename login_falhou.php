@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="style.css">
 
 <div class="login-page">
-  <div class="form">    
+  <div class="form">  
+    <div align="center"><strong>Erro ao logar!</strong></div>  
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
 
