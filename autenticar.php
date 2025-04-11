@@ -19,7 +19,6 @@
         echo "<meta http-equiv='refresh' content='0;url=login_falhou.php'>";
     }
 
-
-    print_r($_REQUEST)
+   
 
 ?>
